@@ -1,0 +1,31 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_line_sdk (1.2.1):
+    - Flutter
+    - LineSDKSwift (~> 5.3)
+  - LineSDKSwift (5.3.1):
+    - LineSDKSwift/Core (= 5.3.1)
+  - LineSDKSwift/Core (5.3.1)
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_line_sdk (from `.symlinks/plugins/flutter_line_sdk/ios`)
+
+SPEC REPOS:
+  trunk:
+    - LineSDKSwift
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_line_sdk:
+    :path: ".symlinks/plugins/flutter_line_sdk/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_line_sdk: 0a2e7d963c3a87295cff22f77e90ce8b71a3504b
+  LineSDKSwift: b1ab3145c5a206ef975afc8134a1c087551f3d13
+
+PODFILE CHECKSUM: c9a3f2b0361195d87b3dbee04d0d77979f215c87
+
+COCOAPODS: 1.8.3
